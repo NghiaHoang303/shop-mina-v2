@@ -12,7 +12,7 @@ import {
   ListItem,
   Typography,
 } from "@mui/material";
-import { ButtonShop } from "../../Button/Button";
+import { ButtonShop } from "../../../Button/Button";
 const BestSellerContent = styled.div`
   width: 100%;
   height: 800px;

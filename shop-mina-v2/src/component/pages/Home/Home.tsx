@@ -3,9 +3,11 @@ import styled from "@emotion/styled";
 import { css } from "@emotion/css";
 import { Button } from "@mui/material";
 import BestSeller from "./BestSeller/BestSeller";
-import { ButtonShop } from "../Button/Button";
+import { ButtonShop } from "../../Button/Button";
 import ShopDecorItem from "./ShopDecorItem/ShopDecorItem";
 import DescriptionShop from "./DecriptionShop/DescriptionShop";
+import VerifyEmail from "./VerifyEmail/VerifyEmail";
+import Footer from "../../Footer/Footer";
 const HomePage = styled.div`
   height: auto;
   margin-top: 50px;
@@ -57,6 +59,8 @@ const Home: React.FC = () => {
       <BestSeller />
       <ShopDecorItem />
       <DescriptionShop />
+      <VerifyEmail />
+      <Footer />
     </HomePage>
   );
 };

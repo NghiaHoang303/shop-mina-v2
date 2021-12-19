@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { ButtonShop } from "../../Button/Button";
+import { ButtonShop } from "../../../Button/Button";
 import { css } from "@emotion/css";
 const Content = styled.div`
   background-image: url("https://images.eq3.com/image-service/b5698e38-6551-4865-b7de-2c2d6680d3e3/87.jpg_COMPRESSED.jpg");

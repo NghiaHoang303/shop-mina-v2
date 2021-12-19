@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import Layout from "./component/Layout/Layout";
-import Home from "./component/pages/Home";
+import Home from "./component/pages/Home/Home";
 import { css } from "@emotion/css";
 
 const App: React.FC = () => {
